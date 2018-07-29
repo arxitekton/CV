@@ -68,7 +68,7 @@ Total params: 34,706,290
 Trainable params: 34,688,606
 Non-trainable params: 17,684
 ```
-Model training history:
+Model training history:<br/>
 ![model loss](https://github.com/arxitekton/CV/blob/master/results/img/alexnet_like_loss.png)
 ![model accuracy](https://github.com/arxitekton/CV/blob/master/results/img/alexnet_like_accuracy.png)
 
@@ -143,7 +143,7 @@ Total params: 309,290
 Trainable params: 308,394
 Non-trainable params: 896
 ```
-Model training history:
+Model training history:<br/>
 ![model loss](https://github.com/arxitekton/CV/blob/master/results/img/mod_wo_aug_adam_loss.png)
 ![model accuracy](https://github.com/arxitekton/CV/blob/master/results/img/alexnet_like_accuracy.png)
 
@@ -166,7 +166,7 @@ achieved accuracy: 0.8559 (60 epochs)
         vertical_flip=False)  # randomly flip images
 
 ```
-Model training history:
+Model training history:<br/>
 ![model loss](https://github.com/arxitekton/CV/blob/master/results/img/mod_aug_adam_loss.png)
 ![model accuracy](https://github.com/arxitekton/CV/blob/master/results/img/mod_aug_adam_accuracy.png)
 
@@ -184,7 +184,7 @@ aug_rmsprop|0.8676
 wo_aug_adam|0.8559
 alexnet_like|0.7191
 
-Model training history with adagrad:
+Model training history with adagrad:<br/>
 ![model loss](https://github.com/arxitekton/CV/blob/master/results/img/mod_aug_adagrad_loss.png)
 ![model accuracy](https://github.com/arxitekton/CV/blob/master/results/img/mod_aug_adagrad_accuracy.png)
 
@@ -220,7 +220,7 @@ Model training history with adagrad:
             return initial_lrate
 
 ```
-Model training history with step_decay:
+Model training history with step_decay:<br/>
 ![model loss](https://github.com/arxitekton/CV/blob/master/results/img/step_decay_loss.png)
 ![model accuracy](https://github.com/arxitekton/CV/blob/master/results/img/step_decay_accuracy.png)
 
